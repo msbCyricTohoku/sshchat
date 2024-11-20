@@ -1,0 +1,23 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: update syste,
+      run: sudo apt update
+    - name: install libs
+      run: sudo apt install qtbase5-dev qtcreator qtbase5-dev qt5-qmake libqt5widgets5 build-essential
+    - name: qmake run
+      run: qmake
+    - name: make run
+      run: make
