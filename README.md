@@ -21,6 +21,10 @@ run qmake:
 ```
 qmake
 ```
+install sshpass:
+```
+sudo apt install sshpass
+```
 then compile the program using:
 ```
 make
