@@ -31,6 +31,7 @@ then run sshchat-v1:
 ```
 ---
 screenshot:
+
 IP: your VPS ip address (make sure sshd is running)
 
 User: your VPS username
