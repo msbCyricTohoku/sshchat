@@ -31,8 +31,17 @@ then run sshchat-v1:
 ```
 ---
 screenshot:
+IP: your VPS ip address (make sure sshd is running)
+User: your VPS username
+Pass: your VPS password
+Port: the ssh port (typically 22 if you have not changed it)
+chat name: choose a name to be used in your chat
+En. Key: encryption password/key that you agreed upon -- this password must be same for the other person you wish to chat with
 
+![alt text](https://github.com/msbCyricTohoku/sshchat/blob/main/screenshot/img2.png)
+---
 ![alt text](https://github.com/msbCyricTohoku/sshchat/blob/main/screenshot/img.png)
+
 
 Enjoy the simple and private chat! 
 
